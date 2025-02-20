@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4, #ffdde1);
+    background-color: #ff9a9e;
     text-align: center;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     animation: backgroundMove 10s infinite alternate;
@@ -49,5 +49,8 @@ button:hover {
     transition: opacity 0.5s;
 }
 .hidden {
+    opacity: 0 !important;
+}
+.visible{
     opacity: 1 !important;
 }

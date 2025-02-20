@@ -54,3 +54,11 @@ button:hover {
 .visible{
     opacity: 1 !important;
 }
+#surprisetwo {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #4b0082;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s;
+}

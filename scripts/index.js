@@ -4,3 +4,10 @@ function showSurprise() {
             surprise.classList.toggle('hidden');
             surprise.classList.toggle('visible');
 }
+
+
+function showSurprisetwo(){
+    let surprisetwo = document.getElementById('surprisetwo');
+    surprisetwo.classList.toggle('hidden');
+    surprisetwo.classList.toggle('visible')
+}

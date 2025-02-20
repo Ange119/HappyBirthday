@@ -8,11 +8,30 @@
 </head>
 <body>
     <div class="container">
-        <h1>🎉 ¡Feliz Cumpleaños! 🎂</h1>
-        <p>Espero que tengas un día increíble lleno de amor y felicidad. ¡Disfruta tu día especial!</p> 
-        <button onclick="showSurprise()">Haz clic para una sorpresa</button>
+        <h1>🎉 ¡Feliz Cumpleaños Miriam! 🎂</h1>
+        <p>Hola, Mami Feliz Cumpleaños:<br>
+
+            Espero que estés pasando un día maravilloso en esta fecha tan especial, tanto para ti como para todos los que te queremos.<br>
+            
+            A través de esta tarjeta web, quiero darte tu regalo, algo que nunca antes había hecho. También quiero recordarte lo increíble que eres.<br>
+            
+            Gracias por estar siempre ahí, en los buenos y malos momentos. Te quiero mucho. 💖</p> 
+            <div id="final">
+                <img src="resources/family-more.jpg" alt="familia" width="700px" height="500px">
+            </div><br>
+        <button onclick="showSurprise()">Haz clic para encontrar tu sorpresa</button>
         <div id="surprise" class="hidden">
-            🎁 ¡Aquí tienes un regalo virtual! 🎁
+            <p>"Estoy siempre cerrado, pero con una puerta.
+                Guardo secretos, ropa y más de una cosa.<br>
+                Si me buscas con prisa, aquí puedes mirar,
+                pues tu regalo escondido me han venido a dejar."</p>
+                <button onclick="showSurprisetwo()">Haz clic para encontrar la siguiente sorpresa</button>
+                <div id = surprisetwo class="hidden">
+                    <p>"De día descanso sin hacer ruido,
+                        de noche me cubro con polvo escondido.<br>
+                        No soy un monstruo, aunque ahí me ves,
+                        si me buscas, agáchate una vez."</p>                       
+                </div>
         </div>
     </div>
     <script src="scripts/index.js"></script>
